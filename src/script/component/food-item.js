@@ -23,7 +23,6 @@ class FoodItem extends HTMLElement {
                                 </div>
                             </div>
            `;
-
     }
 }
 

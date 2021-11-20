@@ -21,7 +21,7 @@ class NavBar extends HTMLElement {
                     <a class="navbar-brand nav-brand-custom" href="#">Foodster</a>
                     <form class="d-flex">
                         <input class="form-control me-2" type="search" id="searchInputField" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-custom" id="searchButton" type="submit">Search</button>
+                        <button class="btn btn-custom" id="searchButton" type="button">Search</button>
                     </form>
                 </div>
             </nav>

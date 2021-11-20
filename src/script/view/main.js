@@ -15,6 +15,15 @@ const main = () => {
         }
     };
 
+    const indexFood = async () => {
+        try{
+            const result = await DataSource.indexFood();
+            renderResult(result);
+        } catch (message) {
+            fallbackResult(message)
+        }
+    };
+
     const renderResult =  results => {
         mealListElement.meals = results;
     };
@@ -24,6 +33,8 @@ const main = () => {
     };
 
     searchField.clickEvent = onButtonSearchClicked;
+
+    indexFood();
 };
 
 export default main;

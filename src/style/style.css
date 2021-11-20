@@ -11,6 +11,9 @@ h5 {
 }
 
 .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+
     position: relative;
     overflow: hidden;
 }
@@ -40,7 +43,7 @@ h5 {
     transition:transform 0.3s ease-in;
     transform: translateY(100%);
 
-    padding: 10px;
+    padding: 10% 12%;
     overflow: auto;
 }
 

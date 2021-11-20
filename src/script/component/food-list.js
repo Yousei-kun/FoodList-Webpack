@@ -11,7 +11,7 @@ class FoodList extends HTMLElement {
         this.innerHTML = "";
         this._meals.forEach(meal => {
             const mealItemElement = document.createElement("food-item");
-            mealItemElement.classList.add("col-md-3");
+            mealItemElement.classList.add("col-md-4");
             mealItemElement.meal = meal;
             this.appendChild(mealItemElement);
         })
